@@ -9,6 +9,10 @@ function division(n, m) {
   if (n < m) {
     return 0}
 
+   else if (m==0) {
+    return 0
+    }
+
   else return (1 + division((n - m), m));
 }
 
